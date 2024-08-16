@@ -1,0 +1,15 @@
+.image{
+    width: 1550px;
+    height: 303px;
+}
+
+#cabecalho{
+    height: 50px;
+    padding: 20px;
+    background-color: blue;
+}
+
+.menu{
+    display: inline-block;
+    margin-right: 15px;
+}

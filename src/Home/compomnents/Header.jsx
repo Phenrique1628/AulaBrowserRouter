@@ -7,15 +7,15 @@ export default function Header() {
             <ul>
                 <header>
                     <Link to="/">
-                        <li>Home</li>
+                        <li class="menu">Home</li>
                     </Link>
 
                     <Link to="/produto">
-                        <li>Produtos</li>
+                        <li class="menu">Produtos</li>
                     </Link>
 
                     <Link to="/oferta">
-                        <li>Ofertas</li>
+                        <li class="menu">Ofertas</li>
                     </Link>
                 </header>
             </ul>
