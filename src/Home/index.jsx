@@ -7,12 +7,12 @@ export default function Home(){
     return(
       <>  
       <Header/>
-      <Footer/>
+    
       <div id="cabecalho">
-      <img src="https://static.kabum.com.br/conteudo/icons/logo.svg" alt="logo da kabum" />
+      <img id="logo" src="https://static.kabum.com.br/conteudo/icons/logo.svg" alt="logo da kabum" />
       </div>
 
-<Carousel
+<Carousel 
 infiniteLoop
 useKeyboardArrows
 autoplay
@@ -42,6 +42,7 @@ dynamicHeight
 
 
 </Carousel>
+<Footer/>
      </>
     );
 }

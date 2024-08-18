@@ -3,9 +3,9 @@ import { Link } from "react-router-dom"
 
 export default function Header() {
     return (
-        <nav>
+        <header>
             <ul>
-                <header>
+                <nav>
                     <Link to="/">
                         <li class="menu">Home</li>
                     </Link>
@@ -17,8 +17,8 @@ export default function Header() {
                     <Link to="/oferta">
                         <li class="menu">Ofertas</li>
                     </Link>
-                </header>
+                </nav>
             </ul>
-        </nav>
+        </header>
     );
 }
