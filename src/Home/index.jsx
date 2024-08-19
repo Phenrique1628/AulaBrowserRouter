@@ -1,8 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
-import Header from "./compomnents/Header";
+import Header from "./components/Header";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './globals.css'
-import Footer from "./compomnents/Footer";
+import Footer from "./components/Footer";
 export default function Home(){
     return(
       <>  
