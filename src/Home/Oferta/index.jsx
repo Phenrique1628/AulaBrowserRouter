@@ -1,5 +1,7 @@
 import { useState } from "react";
+import Header from "../../components/Header";
 import ListaProdutos from "../../components/ListaProdutos";
+import Footer from "../../components/Footer";
 export default function Oferta(){
         const [listaProdutos, setLista] = useState([ 
           {
@@ -14,24 +16,24 @@ export default function Oferta(){
           },
           
           {
-           id: 2,
-           titulo:"Processador Intel Core i5-12400F, 2.5GHz (4.4GHz Max Turbo), Cache 18MB, LGA 1700 - BX8071512400F",
-          preco:"R$ 881,99",
-          promocao:"10% off",
-          especificacoes:["Soquete: LGA1700", "Capacidade máxima da memória: 128GB", "Potência turbo máxima (W): 117"],
-          avaliacoes:"Avaliações: 227",
-          nota:"Nota: 4.81/5.0",
+            id: 2,
+            titulo:"Processador Intel Core i5-12400F, 2.5GHz (4.4GHz Max Turbo), Cache 18MB, LGA 1700 - BX8071512400F",
+            preco:"R$ 881,99",
+            promocao:"10% off",
+            especificacoes:["Soquete: LGA1700", "Capacidade máxima da memória: 128GB", "Potência turbo máxima (W): 117"],
+            avaliacoes:"Avaliações: 227",
+            nota:"Nota: 4.81/5.0",
           linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F283718%2Fprocessador-intel-core-i5-12400f-cache-xmb-xghz-xghz-max-turbo-lga-1700-bx8071512400f_1640094446_g.jpg&w=2048&q=75"
           },
-           
+          
           {
-          id: 3,
-           titulo:"Memória RAM Rise Mode Z, 8GB, 3200MHz, DDR4, CL16, Preto - RM-D4-8G-3200Z",
-          preco:"R$ 149,99",
-          promocao:"10% off",
-          especificacoes:["DDR4-3200", "3200Mhz", "Capacidade: 8GB"],
-          avaliacoes:"Avaliações: 328",
-          nota:"Nota: 4.67/5.0",
+            id: 3,
+            titulo:"Memória RAM Rise Mode Z, 8GB, 3200MHz, DDR4, CL16, Preto - RM-D4-8G-3200Z",
+            preco:"R$ 149,99",
+            promocao:"10% off",
+            especificacoes:["DDR4-3200", "3200Mhz", "Capacidade: 8GB"],
+            avaliacoes:"Avaliações: 328",
+            nota:"Nota: 4.67/5.0",
           linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F383892%2Fmemoria-ram-rise-mode-z-8gb-3200mhz-ddr4-cl15-preto-rm-d4-8g-3200z-_1667508635_g.jpg&w=750&q=75"
         
           },
@@ -45,22 +47,22 @@ export default function Oferta(){
              avaliacoes:"Avaliações: 116",
              nota:"Nota: 4.91/5.0",
              linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F471925%2Fcadeira-gamer-kbm-gaming-cg600-preta-com-almofadas-descanso-para-pernas-retratil-reclinavel-kgcg600pt_1700828329_g.jpg&w=1200&q=75"
-        
-          },
-        
-          {
-            id: 5,
-            titulo:"Headset Gamer Havit",
-            preco:"R$ 169,99",
-            promocao:"29% off",
+             
+            },
+            
+            {
+              id: 5,
+              titulo:"Headset Gamer Havit",
+              preco:"R$ 169,99",
+              promocao:"29% off",
             especificacoes:["Alto-falante: 53 mm", "Resposta de Freqüência: 20 Hz a 20 khz", "Comprimento do cabo: 1.7 metros"],
             avaliacoes:"Avaliações: 1277",
             nota:"Nota: 4.78/5.0",
             linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F102770%2Fheadset-gamer-havit-drivers-53mm-hv-h2002d_headset-gamer-havit-drivers-53mm-hv-h2002d_1564056874_g.jpg&w=750&q=75"
-        
+            
           },
-      
-        
+          
+          
           {
             id: 6,
             titulo:"Memória RAM Kingston Fury Beast, RGB, 16GB, 3200MHz, DDR4, CL16, Preto - KF432C16BB12A/16",
@@ -70,9 +72,9 @@ export default function Oferta(){
             avaliacoes:"Avaliações: 116",
             nota:"Nota: 4.91/5.0",
             linkImg:"https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F480529%2Fmemoria-kingston-fury-beast-rgb-16gb-3200mhz-ddr4-cl16-preto-kf432c16bb12a-16_1698350317_g.jpg&w=828&q=75" 
-        
+            
           },
-
+          
           {
             id: 8,
             titulo:"Teclado Mecânico Gamer HyperX Alloy MKW100",
@@ -82,10 +84,10 @@ export default function Oferta(){
             avaliacoes:"Avaliações: 507",
             nota:"Nota: 4.58/5.0",
             linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F371586%2Fteclado-mecanico-gamer-hyperx-alloy-mkw100-rgb-switch-red-full-size-us-preto-4p5e1aa-aba_1722882381_g.jpg&w=1080&q=75"
-        
+            
           },
-  
-        
+          
+          
           {
             id: 9,
             titulo:"Gabinete Gamer Rise Mode Glass 06X",
@@ -95,21 +97,21 @@ export default function Oferta(){
             avaliacoes:"Avaliações: 11",
             nota:"Nota: 4.73/5.0",
             linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F324516%2Fgabinete-gamer-rise-mode-glass-06x-lateral-em-vidro-fume-e-frontal-em-vidro-temperado-preto-rm-ca-06x-fb_1660589149_g.jpg&w=828&q=75"
-        
+            
           },
-        
-  
-            {
-              id: 11,
-              titulo:"Kit Com 3 Ventoinhas Rise Mode Energy, 120mm, ARGB, Preto - FN-02-RGB-5V",
-              preco:"R$ 74,99",
-              promocao:"37% off",
-              especificacoes:["Cor do Led: ARGB", "Fluxo de ar do Fan: 50 CFM", "Velocidade do fan: 1650 RPM"],
-              avaliacoes:"Avaliações: 617",
-              nota:"Nota: 4.69/5.0",
-               linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F153647%2Fcooler-fan-rise-mode-energy-3-unidades-120mm-argb-preto-fn-02-rgb-5v_1663768314_g.jpg&w=1200&q=75"
           
-            },
+          
+          {
+            id: 11,
+            titulo:"Kit Com 3 Ventoinhas Rise Mode Energy, 120mm, ARGB, Preto - FN-02-RGB-5V",
+            preco:"R$ 74,99",
+            promocao:"37% off",
+            especificacoes:["Cor do Led: ARGB", "Fluxo de ar do Fan: 50 CFM", "Velocidade do fan: 1650 RPM"],
+            avaliacoes:"Avaliações: 617",
+            nota:"Nota: 4.69/5.0",
+            linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F153647%2Fcooler-fan-rise-mode-energy-3-unidades-120mm-argb-preto-fn-02-rgb-5v_1663768314_g.jpg&w=1200&q=75"
+            
+          },
 
             {
               id: 15,
@@ -120,14 +122,21 @@ export default function Oferta(){
               avaliacoes:"Avaliações: 99",
               nota:"Nota: 4.77/5.0",
               linkImg: "https://www.kabum.com.br/_next/image?url=https%3A%2F%2Fimages.kabum.com.br%2Fprodutos%2Ffotos%2F471343%2Ffonte-xpg-kyber-850w-80-plus-gold-bivolt-preto-kyber850g-bkcbr_1698434934_g.jpg&w=1920&q=75"
-          
+              
             },
-  
+            
         ])
-  return(
+
+
+        return(
+          <>
+<Header/>
     <div>
          <ListaProdutos lista={listaProdutos}/>
     </div>
+    <Footer/>
+    </>
    
 );
     }
+    

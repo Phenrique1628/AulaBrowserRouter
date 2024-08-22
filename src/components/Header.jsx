@@ -2,10 +2,11 @@ import { Link } from "react-router-dom"
 
 
 export default function Header() {
-    return (
+return (
+    <div class="Header">
         <header>
             <ul>
-                <nav>
+                <nav class="container-menu">
                     <Link to="/">
                         <li class="menu">Home</li>
                     </Link>
@@ -20,5 +21,6 @@ export default function Header() {
                 </nav>
             </ul>
         </header>
-    );
+    </div>
+ );
 }

@@ -1,5 +1,8 @@
 import { useState } from "react";
 import ListaProdutos from "../../components/ListaProdutos";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+
 
 export default function Produto(){
     const [listaProdutos, setLista] = useState([
@@ -185,9 +188,12 @@ export default function Produto(){
       
       ])
     return(
+      <>
+      <Header/>
         <div>
              <ListaProdutos lista={listaProdutos}/>
         </div>
-       
+       <Footer/>
+    </>
     );
 }
