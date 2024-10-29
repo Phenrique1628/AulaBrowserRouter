@@ -90,7 +90,7 @@ dynamicHeight
 
 <div class="image">
 
-  <img src="https://www.kabum.com.br/core/_next/image?url=https://themes.kabum.com.br/conteudo/layout/5128/1723418177.png&w=1920&h=400&q=100" alt="banner1" />
+  <img src="https://image.api.playstation.com/vulcan/ap/rnd/202406/0500/80ecf657918558eeef8da3ee4cef326e4517d34e6c69d950.jpg?w=5000&thumb=false" alt="banner1" />
 
 </div>
 
